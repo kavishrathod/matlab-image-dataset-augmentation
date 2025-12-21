@@ -66,7 +66,7 @@ for s = 1:length(subFolders)
             augImgs{j} = imcrop(tmpImg,[x,y,cropW,cropH]);
         end
         
-        % 9th augmentation (FlipV + Rotate -10° + crop)
+        % 9th augmentation (FlipV + Rotate -10Â° + crop)
         tmpImg = baseImg(end:-1:1, :, :);
         tmpImg = imrotate(tmpImg, -10, 'bilinear');
         [rh, rw, ~] = size(tmpImg);
@@ -74,7 +74,7 @@ for s = 1:length(subFolders)
         x = round((rw-cropW)/2); y = round((rh-cropH)/2);
         augImgs{9} = imcrop(tmpImg,[x,y,cropW,cropH]);
         
-        % 10th augmentation (FlipH + Rotate +30° + more aggressive crop)
+        % 10th augmentation (FlipH + Rotate +30Â° + more aggressive crop)
         tmpImg = baseImg(:, end:-1:1, :);
         tmpImg = imrotate(tmpImg, 30, 'bilinear');
         cropRatio10 = 0.4;
@@ -92,4 +92,5 @@ for s = 1:length(subFolders)
     end
 end
 
-disp('? Done: Augmentation for all subfolders completed!');
+disp('Done: Augmentation for all subfolders completed!');
+
