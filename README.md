@@ -22,36 +22,31 @@ It is designed for **machine learning, deep learning, and computer vision** data
 
 ## 📁 Input Folder Structure
 
-Main_Folder/
-│
-├── Eiffel_Tower/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│
-├── GrandCanal/
-│   ├── image1.jpg
-│   ├── image2.jpg
+    ├── Main_Folder/
+    │   ├── Eiffel_Tower/
+    │   │   ├── image1.jpg
+    │   │   └── image2.jpg
+    │   └── GrandCanal/
+    │       ├── image1.jpg
+    │       └── image2.jpg
 
 ---
 
 ## 📁 Output Folder Structure
 
-Main_Folder_augmented/
-│
-├── Eiffel_Tower/
-│ ├── 1/
-│ ├── 2/
-│ ├── 3/
-│ ├── ...
-│ ├── 10/
-│
-├── GrandCanal/
-│ ├── 1/
-│ ├── 2/
-│ ├── 3/
-│ ├── ...
-│ ├── 10/
-
+    ├── Main_Folder_augmented/
+    │   ├── Eiffel_Tower/
+    │   │   ├── 1/
+    │   │   ├── 2/
+    │   │   ├── 3/
+    │   │   ├── ...
+    │   │   └── 10/
+    │   └── GrandCanal/
+    │       ├── 1/
+    │       ├── 2/
+    │       ├── 3/
+    │       ├── ...
+    │       └── 10/
 
 Each numbered folder contains one specific augmentation per image.
 
@@ -103,20 +98,3 @@ This project is open-source and free to use for educational and research purpose
 
 Contributions, improvements, and suggestions are welcome.
 Feel free to fork this repository and submit a pull request.
-
-
- <!-- TREEVIEW START -->
-    ```bash
-    ├── example-directory/
-    │   ├── build/
-    │   ├── scripts/
-    │   ├── src/
-    │   │   ├── backend/
-    │   │   │   └── server/
-    │   │   └── frontend/
-    │   │       ├── js/
-    │   │       └── styles/
-    │   └── tests/
-    ```
-
-    <!-- TREEVIEW END -->
