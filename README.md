@@ -103,3 +103,20 @@ This project is open-source and free to use for educational and research purpose
 
 Contributions, improvements, and suggestions are welcome.
 Feel free to fork this repository and submit a pull request.
+
+
+ <!-- TREEVIEW START -->
+    ```bash
+    ├── example-directory/
+    │   ├── build/
+    │   ├── scripts/
+    │   ├── src/
+    │   │   ├── backend/
+    │   │   │   └── server/
+    │   │   └── frontend/
+    │   │       ├── js/
+    │   │       └── styles/
+    │   └── tests/
+    ```
+
+    <!-- TREEVIEW END -->
