@@ -77,7 +77,7 @@ Each numbered folder contains one specific augmentation per image.
 - Image classification datasets
 - Deep learning model training
 - Computer vision experiments
-- Academic and research projects
+- Academic & research projects
 
 ---
 
