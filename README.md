@@ -2,7 +2,7 @@
 
 This repository contains a **MATLAB-based image augmentation script** that automatically processes images from multiple subfolders and generates **10 augmented versions per image**.
 
-It is designed for **machine learning, deep learning, and computer vision** dataset preparation.
+It is designed for **machine learning, deep learning, and computer vision** datasets preparation.
 
 ---
 
